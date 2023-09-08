@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" types="text.css" rel="stylesheet" />
+</head>
+
+
+<body>
+    <!-- Navigation Bar -->
+<div class="topnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="table.html">Table</a>
+    <a href="form.html">Form</a>
+    <a href="address.html">Address</a>
+</div>
+<br>
+
+<h1 class="subtitle">Contact Me</h1>
+<br>
+
+<form action="file:///Users/wanghan/Desktop/67240/week01/hanwang3_hw1/form.html"
+method="get">
+
+    <fieldset class="formborder">
+    <legend>Contact Details</legend>
+    <!-- Text Input -->
+    <label>Name: <input type="text" name="name" size="10" maxlength="30"/></label>
+    
+    <!-- Radio button -->
+    <p>Are you a CMU student?
+    <br/>
+    <input type="radio" name="yesorno" value="yes" checked="checked"/>YES
+    <input type="radio" name="yesorno" value="no"/>NO
+    </p>
+
+    <!-- Drop down list box -->
+    <p>If you are a CMU student, please select your college: </p>
+    <select name="colleges">
+        <option value="MCS">Mellon College of Science</option>
+        <option value="DC">Dietrich College of Humanities and Social Sciences</option>
+        <option value="ECE">College of Engineering</option>
+        <option value="CFA">College of Fine Arts</option>
+        <option value="SCS">School of Computer Science</option>
+        <option value="TEP">Tepper School of Business</option>
+    </select>
+
+    <p>In addition to college, please select your year: </p>
+    <select name="years">
+        <option value="freshman">Freshman</option>
+        <option value="sophomore">Sophomore</option>
+        <option value="Junior">Junior</option>
+        <option value="Senior">Senior</option>
+    </select>
+
+    <!-- Submit button -->
+    <p>Subscribe to our mail list: </p>
+    <input type="email" name="email" size="20" maxlength="50"/>
+    <input type="submit" name="subscribe" value="Subscribe"/>
+</fieldset>
+<br>
+
+<fieldset class="formborder">
+    <legend>Comments</legend>
+    <!-- Text area -->
+    <p>What do you think of this site?</p>
+    <textarea name="comments" cols="30" rows="5">Enter your comments...</textarea>
+</fieldset>
+</form>
+
+<br>
+<footer>
+    <p>Author: Corince Wang<br>
+    <a href="mailto:hanwang3@andrew.cmu.edu">hanwang3@andrew.cmu.edu</a></p>
+</footer>
+
+</body>
+</html>
